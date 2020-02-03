@@ -36,8 +36,8 @@ for i in range(len(train_y)):
 		val_count = val_count+1
 	if train_a[i] == predict_al[i]:
 		al_count = al_count+1
-print "predicted valence",(float(val_count)/len(train_y))*100
-print "predicted arousal",(float(al_count)/len(train_y))*100
+print ("predicted valence",(float(val_count)/len(train_y))*100)
+print ("predicted arousal",(float(al_count)/len(train_y))*100)
 # classifier efficiency
 '''
 predicted valence 98.046875 percentage
